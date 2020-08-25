@@ -76,7 +76,7 @@ namespace ConsoleApp1.Library
 
         }
 
-        public static string GetSubString(string p_SrcString, int p_StartIndex, int p_Length, string p_TailString)
+        private static string GetSubString(string p_SrcString, int p_StartIndex, int p_Length, string p_TailString)
         {
             string myResult = p_SrcString;
 
