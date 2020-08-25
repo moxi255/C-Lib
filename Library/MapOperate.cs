@@ -16,7 +16,7 @@ namespace ConsoleApp1.Library
         /// <param name="latitude">纬度</param>
         /// <param name="distance">距离（单位：公里或千米）</param>
         /// <returns>返回一个范围的4个点，最小纬度和纬度，最大经度和纬度</returns>
-        public static Dictionary<String, double> returnLLSquarePoint(double longitude, double latitude, double distance)
+        public static Dictionary<String, double> LLSquarePoint(double longitude, double latitude, double distance)
         {
 
             Dictionary<String, double> squareMap = new Dictionary<String, double>();

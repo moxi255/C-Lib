@@ -33,7 +33,7 @@ namespace ConsoleApp1.Library
         /// </summary>
         /// <param name="htmlStr"></param>
         /// <returns></returns>
-        public static List<String> getImgStr(String htmlStr)
+        public static List<String> GetImgStr(String htmlStr)
         {
 
             List<String> list = new List<string>();
