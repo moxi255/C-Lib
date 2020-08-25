@@ -137,7 +137,7 @@ namespace ConsoleApp1.Library
             return newRandom.ToString();
         }
         /// <summary>
-        /// 将字典类型序列化为json字符串
+        /// SerializeDictionaryToJsonString
         /// </summary>
         /// <typeparam name="TKey">字典key</typeparam>
         /// <typeparam name="TValue">字典value</typeparam>
